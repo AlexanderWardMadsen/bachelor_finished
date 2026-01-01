@@ -1,0 +1,24 @@
+# List only top-level packages you actually depend on, e.g.:
+colcon-common-extensions
+argcomplete
+numpy<2
+opencv-python
+mediapipe
+onnxruntime
+tqdm
+pyyaml
+pycocotools
+tensorboard
+openimages
+empy<=3.3.4
+catkin_pkg
+lark
+typeguard
+
+# PyTorch CPU-version
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
+torchaudio==2.1.0+cpu
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
+
+

@@ -1,1 +1,2 @@
-# bachelor_finished
+# bachelor-workspace
+virtual environment for the bachelor project
